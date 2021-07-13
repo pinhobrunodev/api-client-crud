@@ -1,0 +1,10 @@
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Bruno Pinho','0000000000',500.0,'1990-02-14T9:30:00Z',12,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Jose Pedro','11111111111',400.0,'1991-07-16T14:30:00Z',1,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Pedro Lima','2222222222',300.0,'1992-11-28T13:30:00Z',2,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Matheus Bastos','3333333333',900.0,'1980-12-15T15:30:00Z',3,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Leticia Queiroz','4444444444',800.0,'1920-01-13T16:30:00Z',4,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Marcos Silva','5555555555',300.0,'1930-02-12T13:10:00Z',4,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Claudio de Jesus','6666666666',200.0,'1904-03-11T19:00:00Z',2,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Edilson Gomes','7777777777',1500.0,'1931-04-10T20:31:00Z',3,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Mauricio de Oliveira','8888888888',1200.0,'1999-05-21T02:02:02Z',2,NOW());
+INSERT INTO tb_client (name,cpf,income,birth_Date,children,created_At) values ('Nilo Reis','9999999999',150.0,'1992-05-22T04:20:00Z',1,NOW());
