@@ -50,7 +50,7 @@ public class ClientService {
 	@Transactional(readOnly = true)
 	public ClientDTO findById(Long id) {
 		return repository.findById(id).map(ClientDTO::new)
-				.orElseThrow(() -> new ResourceNotFoundException("ID not found : " + id));
+				.orElseThrow(() -> new ResourceNotFoundException("Entity not found"));
 	}
 
 	public void delete(Long id) {
