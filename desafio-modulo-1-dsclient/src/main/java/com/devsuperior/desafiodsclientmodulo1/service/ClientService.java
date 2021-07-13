@@ -22,7 +22,7 @@ public class ClientService {
 	@Autowired
 	private ClientRepository repository;
 	
-	@Transactional
+	@Transactional(readOnly = true)
 	public Page<ClientDTO> findAll(PageRequest pageRequest){
 		Page<Client> list = repository.findAll(pageRequest);
 		return list.map(ClientDTO::new);
